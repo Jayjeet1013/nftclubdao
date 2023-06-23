@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className='fixed bg-blue-950 w-full flex justify-start'>
+    <div className='fixed bg-gradient-to-b from-blue-950 to-black-500 w-full h-36 flex justify-start'>
        <Image className='absolute mx-80' src={Mcdao}/>
       <div className=' p-8  font-bold text-white mx-96 '>
     <Link className='p-4' href='#Home'>Home</Link>
