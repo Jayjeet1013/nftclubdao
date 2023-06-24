@@ -8,8 +8,8 @@ import img_22 from 'public/22.png'
 
 const Community = () => {
   return (
-    <div className=' bg-customColor'>Community
-        <div className='text-white justify-center text-center my-20'>
+    <div className='  bg-gradient-to-b from-serviceColor to-black'>
+        <div className='text-white justify-center text-center py-20'>
           <h3 className='font-bold  text-5xl '>Unlock Exclusive Community Perks</h3>
           <h6 className='text-2xl my-3'>Our vision is to create high-class, utility-driven projects using the power of NFTs and communities.</h6>
         </div>
