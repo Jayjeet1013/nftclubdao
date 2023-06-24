@@ -4,6 +4,7 @@ import rewardimg from 'public/1.png'
 import resourcesimg from 'public/7.png'
 import moneyimg from 'public/2.png'
 import nftimg from 'public/4.png'
+import img_22 from 'public/22.png'
 
 const Community = () => {
   return (
@@ -79,6 +80,10 @@ const Community = () => {
         
         <div className='text-center'>
             <button className='rounded bg-violet-600 p-2 '>Read More</button>
+        </div>
+
+        <div className='justify-center flex item-center'>
+          <Image src={img_22} className=''/>
         </div>
     </div>
   )
