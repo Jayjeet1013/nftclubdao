@@ -9,9 +9,9 @@ import bg_4 from 'public/bg_4.png'
 const Services = () => {
   return (
     <div className='bg-serviceColor'>
-      <div className='text-white'>
-        <h1>Discover our Unparalleled Services</h1>
-        <p>Leverage the power of NFTs to create new experiences for your customers</p>
+      <div className='text-white text-center p-8 '>
+        <h1 className='text-5xl '>Discover our Unparalleled Services</h1>
+        <p className='text-md'>Leverage the power of NFTs to create new experiences for your customers</p>
       </div>
  <div className='flex'>
 <div className='text-white border rounded'>
@@ -45,10 +45,10 @@ const Services = () => {
 
 
 <div className='flex justify-center text-center'>
-  <Image src={bg_4} className='right-0 absolute '/>
+ 
     <button className='border rounded-md bg-violet-800'>Contact Us</button>
     <button className='border rounded-md '>Explore More</button>
-  
+   <Image src={bg_4} className='right-0 absolute '/>
 </div>
 
 

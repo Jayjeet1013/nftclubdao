@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Community from './components/Community'
 import Services from './components/Services'
+import Footer from './components/Footer'
 
 export default function page() {
   return (
@@ -12,6 +13,7 @@ export default function page() {
   <Home/>
   <Community/>
   <Services/>
+  <Footer/>
    </div>
   )
 }
