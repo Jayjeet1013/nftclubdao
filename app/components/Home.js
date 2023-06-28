@@ -7,7 +7,7 @@ import pic1 from 'public/pic1.png'
 const Home = () => {
   return (
     <div className='bg-black h-screen  ' >
-        <div className='flex '>
+        <div className='flex  '>
         <div className='text-white my-32 '>
     <h1 className='py-40 font-bold text-6xl mx-40 absolute ' >Building New Experiences</h1>
     <span className='my-56 font-bold text-6xl absolute mx-40'>Using</span>
