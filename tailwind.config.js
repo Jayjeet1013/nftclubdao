@@ -11,6 +11,7 @@ module.exports = {
         customColor: '#B353E8',
         headerColor:'#DA12FA',
         serviceColor:'#0C020B',
+        footerColor:'#C1C4CA0D',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
