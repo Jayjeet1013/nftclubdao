@@ -13,26 +13,26 @@ const Services = () => {
         <h1 className='text-5xl '>Discover our Unparalleled Services</h1>
         <p className='text-md'>Leverage the power of NFTs to create new experiences for your customers</p>
       </div>
- <div className='flex'>
-<div className='text-white border rounded'>
+ <div className='flex text-center justify-center  '>
+<div className='text-white border rounded text-center w-96 p-2 m-8'>
   <Image src={service_1} className=''/>
   <h1>Growth</h1>
   <p>Attracting strategic partnerships by crafting hyper growth marketing campaigns.</p>
 </div>
-<div className='text-white border rounded'>
+<div className='text-white border rounded text-center w-96 p-2 m-8 '>
   <Image src={service_2} className=''/>
   <h1>Fundraising</h1>
   <p>Taking your project to new heights by introducing relevant investors and partners.</p>
 </div>
  </div>
 
- <div className='flex'>
-<div className='text-white border rounded'>
+ <div className='flex text-center justify-center'>
+<div className='text-white border rounded text-center w-96 p-2 m-8'>
   <Image src={service_3} className=''/>
   <h1>Consulting</h1>
   <p>Doing intense market and user research to create the best strategies for your brand launch and revival.</p>
 </div>
-<div className='text-white border rounded'>
+<div className='text-white border rounded text-center w-96 p-2 m-8'>
   <Image src={service_4} className=''/>
   <h1>Development</h1>
   <p>Bringing ideas from concept to life with art and technology development.</p>
