@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className='fixed bg-black w-full  flex   justify-center'>
+    <div className=' bg-black w-full  flex   justify-center'>
       <div >
           <Image className='absolute mx-80 left-2' src={Mcdao}/>
       </div>
