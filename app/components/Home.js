@@ -16,7 +16,7 @@ const Home = () => {
     <button className='absolute my-96 mx-40 bg-purple-600 rounded px-2'>Join Our Community</button>
     <button className='absolute my-96 mx-96 border px-2'>Explore Our Services</button>
   </div>
-   <div className='mx-96 px-24 py-12 right-5'>
+   <div className='mx-96 px-24 py-12   right-5'>
   <Image src={pic1} className='mx-96  my-32 '/>
   </div>
   </div>

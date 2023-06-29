@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='bg-black  p-16'>
+    <div className='bg-black  py-16'>
       <div className='bg-footerColor rounded-md text-white p-8'>
 <div className='border p-32 bg-gradient-to-r from-blue-500 to-blue-950 rounded-lg m-32 text-center bg-cover bg-center' style={{ backgroundImage: 'url("/bg_88.png")' }}>
   <div className=''>  <h1 className='text-6xl '>Never Get Behind On NFTs!</h1>
