@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@media (max-width: 670px) {
+        .hiddenmobile{
+                display: none;
+        }
+}
+

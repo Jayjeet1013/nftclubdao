@@ -30,7 +30,7 @@ const Services = () => {
         <h1 className='text-5xl p-12 '>Discover our Unparalleled Services</h1>
         <p className='text-md'>Leverage the power of NFTs to create new experiences for your customers</p>
       </div>
- <div className='flex text-center justify-center  '>
+ <div className='flex text-center flex-col justify-center  '>
 <div className='text-white border rounded text-center w-96 p-2 m-8'>
   <Image src={service_1} className='mx-auto'/>
   <h1>Growth</h1>

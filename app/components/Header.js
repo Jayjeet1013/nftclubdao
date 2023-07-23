@@ -6,12 +6,12 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className=' bg-black w-full  flex   justify-center'>
+    <div className='bg-black  flex justify-center items-center  md:flex-row '>
       <div >
-          <Image className='absolute mx-80 left-2' src={Mcdao}/>
+          <Image className='  left-2' src={Mcdao}/>
       </div>
      
-      <div className=' p-8  font-bold text-white mx-96  '>
+      <div className=' p-8  font-bold text-white mx-96  hiddenmobile'>
     <Link className='p-4 ' href='#Home'>Home</Link>
     <Link className='p-4' href='#Community'>Community</Link>
     <Link className='p-4' href='/Services'>Services</Link>
