@@ -7,11 +7,12 @@ import { Container } from 'postcss'
 
 const Home = () => {
   return (
-    <div className='bg-black  flex flex-col md:flex-row justify-between items-center max-w-1300 mx-auto'>
-  <div className='text-white px-4 md:px-8 py-8 md:py-24'>
+    <div className='bg-black h-screen py-24'>
+    <div className='  flex flex-col md:flex-row justify-between items-center max-w-screen-2xl mx-auto'>
+  <div className='text-white px-8 md:px-8 py-8 md:py-24 mx-24'  >
     <h1 className='text-2xl md:text-4xl font-bold mb-4'>Building New Experiences</h1>
     <h2 className='text-xl md:text-2xl font-bold mb-4'>
-      <span>Using</span> Digital Assets
+      <span>Using</span> Digital Assetsflex justify-center items-center
     </h2>
     <h3 className='text-lg md:text-xl mb-4'>
       MetaClub DAO is a Community focused NFT accelerator
@@ -28,7 +29,7 @@ const Home = () => {
     <Image src={pic1} className='w-48 md:w-auto' />
   </div>
 </div>
-
+</div>
   
   
   )

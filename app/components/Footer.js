@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className='bg-black  py-16'>
-      <div className='bg-footerColor rounded-md text-white p-8'>
+      <div className='bg-footerColor rounded-md text-white max-w-screen-2xl mx-auto p-8'>
 <div className='border p-32 bg-gradient-to-r from-blue-500 to-blue-950 rounded-lg m-32 text-center bg-cover bg-center' style={{ backgroundImage: 'url("/bg_88.png")' }}>
   <div className=''>  <h1 className='text-6xl '>Never Get Behind On NFTs!</h1>
     <p className='text-xl'>Subscribe to receive market insights, growth hacks, stories, etc  </p>
@@ -24,11 +24,11 @@ const Footer = () => {
   
 </div>
 
-<div className='flex my-32 '>
+<div className='flex py-32 '>
   <div>
     <Image src={img_987}  className='w-56 relative mx-40'/>
   </div>
-  <div className='flex right-32 absolute '>
+  <div className='flex right-24 absolute '>
     <div className='mx-24 text-lg '>
       <h1 className='text-2xl my-2'>Links</h1>
       <Link href='' className='flex py-4'>Home</Link>

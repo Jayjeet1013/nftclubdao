@@ -15,7 +15,8 @@ import img_90 from 'public/90.png'
 
 const Community = () => {
   return (
-    <div className='  bg-gradient-to-b from-serviceColor to-black py-52'>
+    <div className=' bg-gradient-to-b from-serviceColor to-black '>
+    <div className='  bg-gradient-to-b from-serviceColor to-black max-w-screen-2xl mx-auto py-52'>
         <div className='text-white justify-center text-center py-20'>
           <h3 className='font-bold  text-5xl '>Unlock Exclusive Community Perks</h3>
           <h6 className='text-2xl my-3'>Our vision is to create high-class, utility-driven projects using the power of NFTs and communities.</h6>
@@ -94,6 +95,7 @@ const Community = () => {
         <div className='justify-center flex item-center'>
           <Image src={img_22} className=''/>
         </div>
+    </div>
     </div>
   )
 }
