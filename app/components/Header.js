@@ -11,7 +11,7 @@ const Header = () => {
   return (
    <div className=' bg-black'>
     <div className=' flex justify-between items-center  md:flex-row max-w-screen-2xl mx-auto'>
-      <div >
+      <div className='pl-4'>
           <Image className='  ' src={Mcdao}/>
       </div>
      
@@ -22,8 +22,9 @@ const Header = () => {
     <Link className='p-4' href='/Blogs'>Blogs</Link>
     
 </div>
-
-     <button className='bg-purple-500  text-white font-bold px-4  rounded ' >Join Our Community</button>
+ <div className='pr-4 '>
+     <button className='bg-purple-500  text-white font-bold p-1  rounded ' >Join Our Community</button>
+  </div>
     </div>
  </div>
   )
