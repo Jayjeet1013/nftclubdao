@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className='bg-black  py-16'>
-      <div className='bg-footerColor rounded-md text-white max-w-screen-2xl mx-auto md:p-8'>
+      <div className='bg-footerColor rounded-md text-white max-w-screen-xl mx-auto md:p-8'>
 <div className='border  bg-gradient-to-r from-blue-500 to-blue-950 rounded-lg p-4 md:p-32 text-center bg-cover bg-center' style={{ backgroundImage: 'url("/bg_88.png")' }}>
   <div className=''>  <h1 className='text-2xl md:text-6xl px-8 '>Never Get Behind On NFTs!</h1>
     <p className='text-xl'>Subscribe to receive market insights, growth hacks, stories, etc  </p>
@@ -57,8 +57,8 @@ const Footer = () => {
 
 <hr/>
 <div className='py-12 '>
-  <h1 className='text-center'>Copyright © 2023 MCD. All rights reserved.</h1>
-  <h2 className='text-center'>Powered by MCD. xxxxx.</h2>
+  <h1 className='text-center'>Copyright © Jayjeet. All rights reserved.</h1>
+  <h2 className='text-center'>Powered by NFTClub. xxxxx.</h2>
 </div>
       </div>
       </div>

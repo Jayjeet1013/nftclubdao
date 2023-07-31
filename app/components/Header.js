@@ -10,7 +10,7 @@ import Link from 'next/link'
 const Header = () => {
   return (
    <div className=' bg-black'>
-    <div className=' flex justify-between items-center  md:flex-row max-w-screen-2xl mx-auto'>
+    <div className=' flex justify-between items-center  md:flex-row max-w-screen-xl mx-auto'>
       <div className='pl-4'>
           <Image className='  ' src={Mcdao}/>
       </div>

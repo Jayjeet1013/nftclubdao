@@ -26,7 +26,7 @@ const Services = () => {
 
   return (
     <div className='bg-serviceColor'> 
-    <div className=' max-w-screen-2xl mx-auto'>
+    <div className=' max-w-screen-xl mx-auto'>
       <div className='text-white text-center p-4 md:p-8 '>
         <h1 className='text-xl md:text-5xl px-2 md:p-12 py-10'>Discover our Unparalleled Services</h1>
         <p className='text-md '>Leverage the power of NFTs to create new experiences for your customers</p>
@@ -71,15 +71,15 @@ const Services = () => {
 <div className='text-center justify-center text-white'>
 
   
-  <div className=' text-center md:px-96 px-8 py-20'>
+  <div className=' text-center md:px-96 px-4 py-20'>
     <h1 className='text-5xl py-4 text-white '>FAQs</h1>
     
-  <Accordion className='text-lg  px-20'>
+  <Accordion className='text-lg  px-2'>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left' className='py-4 text-2xl'>
-        What is MetaClub DAO?
+        What is NFTClub DAO?
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -96,7 +96,7 @@ const Services = () => {
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left' py='12' className='text-2xl'>
-        How can I become a part of MetaClub DAO?
+        How can I become a part of NFTClub DAO?
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -113,7 +113,7 @@ const Services = () => {
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left' py='12' className='text-2xl'>
-        Is MetaClub DAO a NFT project?
+        Is NFTClub DAO a NFT project?
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -130,7 +130,7 @@ const Services = () => {
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left' py='12' className='text-2xl'>
-        What are the benefits of joining MetaClub DAO?
+        What are the benefits of joining NFTClub DAO?
         </Box>
         <AccordionIcon />
       </AccordionButton>

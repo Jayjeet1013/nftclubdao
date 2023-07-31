@@ -16,7 +16,7 @@ import img_90 from 'public/90.png'
 const Community = () => {
   return (
     <div className=' bg-gradient-to-b from-serviceColor to-black '>
-    <div className='   max-w-screen-2xl mx-auto pt-5'>
+    <div className='   max-w-screen-xl mx-auto pt-5'>
         <div className='text-white justify-center text-center py-20'>
           <h3 className='font-bold  text-5xl '>Unlock Exclusive Community Perks</h3>
           <h6 className='text-2xl my-3'>Our vision is to create high-class, utility-driven projects using the power of NFTs and communities.</h6>
@@ -60,7 +60,7 @@ const Community = () => {
         </div>
 
         <div className='text-white text-center my-20 '>
-               <h1 className='text-6xl m-4'>Why Metaclub Dao?</h1>
+               <h1 className='text-6xl m-4'>Why NFTClub Dao?</h1>
                <p className='text-lg'>We’re bringing our love for NFTs and communities together to create an NFT centred ecosystem filled with creativity and passion.</p>
         </div>
 
