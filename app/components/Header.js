@@ -23,7 +23,7 @@ const Header = () => {
     
 </div>
  <div className='pr-4 '>
-     <button className='bg-purple-500  text-white font-bold p-1  rounded ' >Join Our Community</button>
+     <button className='bg-purple-500  text-white font-bold p-1 hiddenmobile  rounded'  >Join Our Community</button>
   </div>
     </div>
  </div>

@@ -29,22 +29,22 @@ const Footer = () => {
     <Image src={img_987}  className='w-56  '/>
   </div>
   <div className='flex flex-col md:flex-row md:gap-24 gap-8  '>
-    <div className='md:flex-col  flex md:text-lg '>
-      <h1 className='text-2xl  py-2'>Links</h1>
+    <div className='md:flex-col md:gap-0 gap-4 flex md:text-lg '>
+      <h1 className='md:text-2xl text-lg py-2'>Links</h1>
       <Link href='' className=' block py-1 md:py-2'>Home</Link>
       <Link href='' className=' block py-1 md:py-2'>Community</Link>
       <Link href='' className=' block py-1 md:py-2'>Services</Link>
       </div>
 
-    <div className=' text-lg flex  md:flex-col '>
-      <h1 className='text-2xl   py-2'>Resources</h1>
+    <div className=' text-lg flex md:gap-0 gap-4 md:flex-col '>
+      <h1 className='md:text-2xl text-lg  py-2'>Resources</h1>
       <Link href='' className=' block py-1 md:py-2'>About</Link>
       <Link href='' className=' block py-1 md:py-2'>Resources</Link>
       <Link href='' className=' block py-1 md:py-2'>Blogs</Link>
       </div>
 
-    <div className='  text-lg flex  md:flex-col '>
-      <h1 className='text-2xl py-2'>Social Media</h1>
+    <div className='  text-lg flex md:gap-0 gap-4  md:flex-col '>
+      <h1 className='md:text-2xl text-lg  py-2'>Social Media</h1>
       <Link href='' className=' block py-1 md:py-2'>Twitter</Link>
       <Link href='' className='block py-1 md:py-2'>Discord</Link>
       <Link href='' className='block py-1 md:py-2'>Telegram</Link>
