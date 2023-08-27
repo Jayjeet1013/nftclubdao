@@ -19,7 +19,7 @@ const Footer = () => {
             <p className="text-xl">
               Subscribe to receive market insights, growth hacks, stories, etc{" "}
             </p>
-            <div className="flex text-center justify-center  md:p-2">
+            <div className="flex text-center justify-center  px-10 ">
               <input
                 className="  bg-gray-200 text-gray-700 border border-gray-200  py-1 px-2  focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
